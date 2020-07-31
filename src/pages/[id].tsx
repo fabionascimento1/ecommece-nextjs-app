@@ -7,6 +7,7 @@ import { formatPrice } from 'utils/format'
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import ProductCardID from 'components/ProductCardID'
+import Meta from 'components/MetaContent'
 
 function Product() {
   const router = useRouter()
@@ -34,6 +35,12 @@ function Product() {
         <div>Carregando ....</div>
       ) : (
         <div>
+          <Meta
+            title={product[0].title}
+            seoTitle="Ecommerce Demo React Next.js"
+            seoDescription="Ecommece demo React Next.js Desenvolvimento de sites com tecnologias Modernas"
+          />
+
           <Heading reverseColor>{product[0].title}</Heading>
           <ProductCardID
             key={product[0].id}
