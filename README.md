@@ -1,4 +1,4 @@
-![React Avançado](hhttps://github.com/fabionascimento1/ecommece-nextjs-app/master/public/img/ScreenShot.png)
+![Ecommerce Nextjs APP](https://raw.githubusercontent.com/fabionascimento1/ecommece-nextjs-app/master/public/img/ScreenShot.png)
 
 ## What is inside?
 
